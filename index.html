@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>To-Do List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="todo-app"> 
+            <h2>To-Do List <img src="images/list.png"></h2>
+
+     
+    <form id="task-form">
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add your text here">
+            <button type="submit">Add</button>
+        </div>
+
+        <select id="priority">
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+</select>
+<p>Status:</p>
+        <input type="radio" name="status" value="pending" checked> Pending
+        <input type="radio" name="status" value="completed"> Completed
+    </form>
+
+    <ul id="list-container">
+        <!-- <li class="checked">Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li> -->
+    </ul>
+</div>
+
+    <script src="script.js"></script>
+
+
+
+
+
+</body>
+</html>
